@@ -1,0 +1,100 @@
+body{
+    padding: 20px;
+    font-size: 24px;
+}
+
+#Navbar{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+#pencil{
+    color: rgb(11, 141, 11);
+    margin-left: -10%;
+}
+
+#location-data{
+    color: rgb(11, 141, 11);
+    margin-left: 5%;
+}
+
+#location-icon{
+    color: rgb(11, 141, 11);
+    margin-left: 5%;
+}
+
+#Landing-page{
+    background-color: rgb(4, 143, 4);
+    border-radius: 20px;
+    height: 300px;
+    color: white;
+    padding-left: 50px;
+    padding-top:50px ;
+
+}
+
+#text{
+    flex-wrap: wrap;
+    width:60%;
+}
+
+button{
+    background-color: white;
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    color:rgb(8, 96, 8) ;
+
+}
+
+#logo-pic{
+
+
+}
+
+input{
+    padding: 15px 65px;
+    border: none;
+}
+
+#organized-by{
+    display: flex;
+    gap: 10%;
+    font-size: 16px;
+    padding: 22px;
+}
+
+#dropdown{
+    align-items: center;
+    display: flex;
+    background-color: rgb(233, 240, 238);
+    padding: 0px 20px;
+    border-radius: 30px;
+
+}
+
+
+.down{
+    margin-left: 3%;
+    
+}
+
+.filter-info{
+    display: flex;
+    margin-left: 15%;
+    gap: 3%;
+}
+
+.filter{
+    width: 30px;
+    height: 50px;
+    margin-left: -5%;
+}
+
+#search{
+    background-color: rgb(233, 240, 238);
+    border-radius: 20px;
+}
+
