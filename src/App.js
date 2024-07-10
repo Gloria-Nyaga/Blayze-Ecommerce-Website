@@ -1,17 +1,18 @@
-// import Introduction from "./LandingPage";
-// import LandingPage from "./LandingPage";
+import Products from "./Products"
+import LandingPage from "./LandingPage";
+import Footer from "./Footer";
+import FeaturedProducts from "./FeaturedProducts";
 
-import Products from "./Products";
-
-const App = () =>{
+const Appreact = () =>{
   return(
     <div>
-      {/* <Introduction/> */}
-      {/* <LandingPage/> */}
+      <LandingPage/>
+      <FeaturedProducts/>
       <Products/>
+      <Footer/>
     </div>
   );
 
 };
 
-export default App;
+export default Appreact;

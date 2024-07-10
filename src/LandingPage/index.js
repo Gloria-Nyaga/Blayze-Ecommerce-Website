@@ -1,5 +1,6 @@
 import './index.css';
 import logo from '../Images/logo.png';
+import girl from '../Images/girl.png'
 import { CiLocationOn } from "react-icons/ci";
 import { GoPencil } from "react-icons/go";
 import { CiFilter } from "react-icons/ci";
@@ -23,12 +24,12 @@ const Introduction = () =>{
                 </div>
 
                 <div>
-                    <FiSearch />
+                    <FiSearch id="search-icon" />
                     <input type="text" id="search" placeholder='Search'></input>
                 </div>
 
-                <div>
-                    <CgShoppingCart />
+                <div id="cart">
+                    <CgShoppingCart  id = "shoppingcart-icon"/>
                     <p>Cart</p>
                 </div>
 
@@ -42,6 +43,10 @@ const Introduction = () =>{
                 <div>
                     <h1 id="text">Grab upto 20% Off on Selected Categories</h1>
                     <button>Buy Now</button>
+                </div>
+
+                <div>
+                    <img id= "girl-pic" src ={girl} alt= "Girl Logo"/>
                 </div>
             </div>
 
@@ -61,80 +66,13 @@ const Introduction = () =>{
 
 
                 <div className='filter-info'>
-                    <p>Category 1</p>
+                    <p>Category1</p>
                     <CiFilter className='filter'/>
                 </div>
                 
             </div>
-            <div id= "Freatured-products">
-                <h2>Featured Products</h2>
-                <div>
-                    <p>Green Dragon Gold Platinum OG</p>
-                    <span><p>$45</p></span>
-                    <p>THC 14.38% CBD 10.20%</p>
 
-                </div>
-
-                <div>
-                    <p>Green Dragon Gold Platinum OG</p>
-                    <span><p>$45</p></span>
-                    <p>THC 14.38% CBD 10.20%</p>
-
-                </div>
-
-                <div>
-                    <p>Green Dragon Gold Platinum OG</p>
-                    <span><p>$45</p></span>
-                    <p>THC 14.38% CBD 10.20%</p>
-
-                </div>
-
-                <div>
-                    <p>Green Dragon Gold Platinum OG</p>
-                    <span><p>$45</p></span>
-                    <p>THC 14.38% CBD 10.20%</p>
-
-                </div>
-
-            </div>
-
-            <div id="discount-page">
-                <div className='discount'>
-                    <div>
-                        <img alt="item"></img>
-                        <h1>GET UPTO 40% OFF</h1>
-                        <button>Get Discount</button>
-                        <img alt="item"></img>
-                    </div>
-                    <div>
-                        <h2>Latest Launched</h2>
-                        <p>Lorem Ipsum Idol</p>
-                        <img alt="item"></img>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <p>Green Dragon Gold Platinum OG</p>
-                        <span><p>$45</p></span>
-                        <p>THC 14.38% CBD 10.20%</p>
-
-                    </div>
-
-                    <div>
-                        <p>Green Dragon Gold Platinum OG</p>
-                        <span><p>$45</p></span>
-                        <p>THC 14.38% CBD 10.20%</p>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-
-
-
+            <h1>Featured Products</h1>
            
         </body>
     )
